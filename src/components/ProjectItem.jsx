@@ -3,7 +3,7 @@
 
 const ProjectItem = ({ item }) => {
 
-    console.log(item)
+    //console.log(item)
     const { imageUrl, category, description, usedSkills, githubUrl, liveUrl, name } = item
 
     return (

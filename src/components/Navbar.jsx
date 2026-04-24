@@ -64,29 +64,24 @@ const skillsList = [
 
 const socialMediaList = [
     {
-        "name": "LinkedIn",
-        "url": "https://www.linkedin.com/in/jppremkumar/",
-        "icon": "https://cdn-icons-png.flaticon.com/512/174/174857.png"
+        name: "GitHub",
+        url: "https://github.com/dgurusai",
+        icon: "https://img.icons8.com/ios-filled/512/github.png"
     },
     {
-        "name": "GitHub",
-        "url": "https://github.com/JPPREMKUMAR",
-        "icon": "https://img.icons8.com/?size=512&id=12598&format=png&color=ffffff"
+        name: "Email",
+        url: "mailto:gurusai410@gmail.com",
+        icon: "https://cdn-icons-png.flaticon.com/512/732/732200.png"
+    },
+    {
+        name: "WhatsApp",
+        url: "https://wa.me/919391266088",
+        icon: "https://cdn-icons-png.flaticon.com/512/733/733585.png"
     },
     {
         "name": "LeetCode",
         "url": "https://leetcode.com/u/jppremkumar/",
         "icon": "https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png"
-    },
-    {
-        "name": "Email",
-        "url": "mailto:jppremkumar012@gmail.com",
-        "icon": "https://cdn-icons-png.flaticon.com/512/732/732200.png"
-    },
-    {
-        "name": "WhatsApp",
-        "url": "https://wa.me/916303845985",
-        "icon": "https://cdn-icons-png.flaticon.com/512/733/733585.png"
     }
 ]
 
@@ -304,7 +299,13 @@ const Navbar = () => {
     const addDes = () => {
         let count = 0;
         const timerId = setInterval(() => {
-            const fullDes = "   Full-Stack Developer specializing in the MERN stack.I create fast, scalable, and modern web applications with clean code and great UI/UX. Experienced with React, Node.js, Express, MongoDB/MySQL, REST APIs, and deployments. I enjoy building real-world projects that solve user problems end-to-end.Always learning new technologies to improve performance, architecture, and user experience."
+            const fullDes = `
+            Results-driven and motivated Business Development Executive with strong abilities in lead
+generation, client engagement, and communication. Skilled at identifying new business
+opportunities, presenting value propositions, and supporting sales growth. Quick learner with a
+proactive mindset and excellent collaboration skills, capable of thriving in fast-paced,
+target-oriented environments
+            `
 
             const presentName = fullDes.slice(0, count)
             setDes(presentName)
@@ -584,17 +585,18 @@ const Navbar = () => {
                             <div className="sm:w-2/3 w-full text-center">
                                 <h1 className="text-3xl text-white font-bold sm:text-5xl ">About <span className="text-purple-500 font-bold">Us</span></h1>
 
-                                <p className="text-gray-400 text-lg my-2  sm:text-xl">Get to know more about my background and passion</p>
+                                <p className="text-gray-400 text-lg my-2  sm:text-xl">
+                                    Get to know more about my background and passion</p>
 
                             </div>
                             <div className="my-4">
                                 <p className="text-gray-400 text-lg my-2  sm:text-xl">
+                                    I am D Guru Sai, a motivated and enthusiastic Computer Science student from Brahmanapalli, Puttaparthi, Andhra Pradesh. I have a strong interest in technology, problem-solving, and continuous learning.
 
-                                    My journey in tech started with simple curiosity—building small HTML and CSS pages just to see something come alive on the screen. Over time, that curiosity grew into a deep passion for creating real, meaningful digital experiences.
+                                    I recently completed my Bachelor of Technology in Computer Science, where I developed a solid foundation in analytical thinking and data-driven decision-making. I have hands-on experience in tools like Power BI, where I worked on projects involving data analysis, visualization, and business insights.
 
-                                    To take my skills to the next level, I joined NxtWave CCBP, where I learned industry-ready development with a strong foundation in Frontend, Backend, Databases, and Deployment. This structured learning helped me understand how real applications are designed, built, and deployed at scale.
+                                    I am a quick learner with a proactive mindset and strong communication skills. I enjoy working in team environments and adapting to new challenges. My goal is to build a successful career where I can contribute effectively while continuously improving my technical and professional skills.
 
-                                    Through continuous hands-on practice, I transitioned from building basic layouts to developing full-stack MERN applications with modern tools like React, Node.js, Express, MongoDB, GitHub, Vercel, and cloud environments. I also worked on real-world projects that helped me understand user experience, clean architecture, and problem-solving at a deeper level.
                                 </p>
 
                             </div>
